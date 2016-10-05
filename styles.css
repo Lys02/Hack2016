@@ -1,0 +1,38 @@
+body{
+    background: #0d1831;
+    font-family: tahoma;
+    color: #989898;
+    }
+
+  #main{
+    font-family: tahoma;
+    font-size: 20px;
+    padding-top: 50px;
+  }
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li:5-last-child{
+  border-right: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
